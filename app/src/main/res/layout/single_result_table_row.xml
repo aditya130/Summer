@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/tv_table_subject"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:layout_span="2"
+        android:textSize="@dimen/result_table_content_size"
+        android:paddingLeft="5dp" />
+
+    <TextView
+        android:id="@+id/tv_table_marks_obtained"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:layout_span="1"
+        android:textSize="@dimen/result_table_content_size" />
+
+    <TextView
+        android:id="@+id/tv_table_marks_max"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:layout_span="1"
+        android:textSize="@dimen/result_table_content_size"/>
+
+    <TextView
+        android:id="@+id/tv_table_grade"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:layout_span="1"
+        android:textSize="@dimen/result_table_content_size"/>
+</TableRow>

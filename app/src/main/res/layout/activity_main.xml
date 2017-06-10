@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp"
+    tools:context="com.example.hp.summer.MainActivity"
+    android:background="#5C6BC0">
+
+    <EditText
+        android:id="@+id/txtusername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Username"
+        android:textColorHint="#EEEEEE"/>
+
+    <EditText
+        android:id="@+id/txtpassword"
+        android:inputType="textPassword"
+        android:layout_below="@+id/txtusername"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:textColorHint="#EEEEEE"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password" />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_below="@+id/txtpassword"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="onlogin"
+        android:background="#e05038"
+        android:textColor="#ffffff"/>
+
+</RelativeLayout>
